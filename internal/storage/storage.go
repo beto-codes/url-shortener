@@ -2,8 +2,6 @@ package storage
 
 import "errors"
 
-// const EmptyString = ""
-
 var (
 	ErrNotFound = errors.New("URL not found")
 	ErrEmpty    = errors.New("URL cannot be empty")
